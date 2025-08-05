@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kart</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-white">
+
+<!-- Navbar -->
+ <nav class="bg-[#6C2A2A] text-white text-sm py-2 px-4">
+    <div class="container mx-auto flex justify-between items-center h-16">
+
+
+<!-- Left links -->
+      <div class="flex items-center space-x-2 text-xs">
+        <a href="#" class="hover:underline">mulai berjualan</a>
+        <span>|</span>
+        <a href="#" class="hover:underline">Download</a>
+        <span>|</span>
+        <a href="#" class="hover:underline">Seller Center</a>
+      </div>
+
+<!-- Search section -->
+      <div class="flex items-center w-full max-w-md mx-6 ">
+        <input type="text" placeholder="cari"
+               class="w-full rounded-l-full py-1.5 px-4 text-black text-sm focus:outline-none" />
+        <button class="bg-white px-3 rounded-r-full flex items-center justify-center">
+          <img src="../asset/search.png" alt="Search" class="w-10 h-8 border-l-black border-l-2" />
+        </button>
+        <button class="ml-4">
+          <img src="../asset/shopping-cart (1).png" alt="Cart" class="w-8 h-8" />
+        </button>
+      </div>
+
+<!-- Right links -->
+      <div class="flex space-x-2 text-sm gap-5 ">
+
+<!-- "a href=" adalah sebuah code untuk membuat pengguna menuju ke page baru saat mengklik komponen di dlaamnya-->
+        <a href="setting">
+          <img src="../asset/setting.png" class="w-10 h-10">
+        </a>
+        <a href="profile">
+            <img src="../asset/profile.png" class="w-10 h-10">
+        </a>
+    </div>
+    </div>
+  </nav>
+    <!-- Cart Container -->
+<div id="cart-container"></div>
+
+<!-- Tombol Delete All (di luar cart-container) -->
+<button id="clear-cart" class="mt-4 bg-red-500 text-white px-4 py-2 rounded m-16">
+  Delete All
+</button>
+
+<!-- Tombol Checkout -->
+<button id="checkout-btn" class="mt-4 bg-blue-500 text-white px-4 py-2 rounded">
+  Checkout
+</button>
+
+  <script src="cart.js"></script>
+  <script src="detail.js"></script>  
+    
+</body>
+</html>

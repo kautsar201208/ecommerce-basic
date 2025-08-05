@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Detail Produk</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Navbar (tetap seperti semula) -->
+  <nav class="bg-[#6C2A2A] text-white text-sm py-2 px-4">
+    <div class="container mx-auto flex justify-between items-center h-16">
+      <!-- Left links -->
+      <div class="flex items-center space-x-2 text-xs">
+        <a href="#" class="hover:underline">mulai berjualan</a>
+        <span>|</span>
+        <a href="#" class="hover:underline">Download</a>
+        <span>|</span>
+        <a href="#" class="hover:underline">Seller Center</a>
+      </div>
+
+      <!-- Search section -->
+      <div class="flex items-center w-full max-w-md mx-6">
+        <input
+          type="text" 
+          placeholder="cari"
+          class="w-full rounded-l-full py-1.5 px-4 text-black text-sm focus:outline-none"
+        />
+        <button class="bg-white px-3 rounded-r-full flex items-center justify-center">
+          <img src="../asset/search.png" alt="Search" class="w-8 h-8 border-l-2 border-black" />
+        </button>
+        <a href="kart.html" class="ml-4">
+          <img src="../asset/shopping-cart (1).png" alt="Cart" class="w-8 h-8" />
+        </a>
+      </div>
+
+      <!-- Right links -->
+      <div class="flex space-x-5 text-sm">
+        <a href="setting">
+          <img src="../asset/setting.png" class="w-10 h-10" />
+        </a>
+        <a href="profile">
+          <img src="../asset/profile.png" class="w-10 h-10" />
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Body: Detail Produk -->
+  <div id="product-detail" class="container mx-auto flex flex-col lg:flex-row gap-10 p-6 max-w-5xl">
+    <!-- JS akan inject: gambar di kiri, info di kanan, lalu deskripsi di bawah -->
+  </div>
+
+  <!-- Script JS -->
+  <script src="detail.js" defer></script>
+  <script src="script.js" defer></script>
+</body>
+</html>

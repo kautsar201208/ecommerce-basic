@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white">
+
+  <!-- Navbar -->
+  <nav class="bg-[#6C2A2A] text-white text-sm py-2 px-4">
+    <div class="container mx-auto flex justify-between items-center h-16">
+
+      <!-- Left links -->
+      <div class="flex items-center space-x-2 text-xs">
+        <a href="#" class="hover:underline">mulai berjualan</a>
+        <span>|</span>
+        <a href="#" class="hover:underline">Download</a>
+        <span>|</span>
+        <a href="#" class="hover:underline">Seller Center</a>
+      </div>
+
+      <!-- Search section -->
+      <div class="flex items-center w-full max-w-md mx-6 ">
+        <input type="text" placeholder="cari"
+               class="w-full rounded-l-full py-1.5 px-4 text-black text-sm focus:outline-none" />
+        <button class="bg-white px-3 rounded-r-full flex items-center justify-center">
+          <img src="../asset/search.png" alt="Search" class="w-10 h-8 border-l-black border-l-2" />
+        </button>
+        <button class="ml-4">
+          <img src="../asset/shopping-cart (1).png" alt="Cart" class="w-8 h-8" />
+        </button>
+      </div>
+
+      <!-- Right links -->
+      <div class="flex space-x-2 text-sm gap-5 ">
+
+        <!-- "a href=" adalah sebuah code untuk membuat pengguna menuju ke page baru saat mengklik komponen di dlaamnya-->
+        <a href="setting">
+          <img src="../asset/setting.png" class="w-10 h-10">
+        </a>
+        <a href="profile">
+            <img src="../asset/profile.png" class="w-10 h-10">
+        </a>
+    </div>
+    </div>
+  </nav>
+
+<section class="h-30">
+  <div class="flex gap-20 bg-[#5B2C2C] border-8 border-[#5B2C2C] w-full h-50 pt-10 justify-center">
+    
+    <!-- Gambar 1 -->
+    <div >
+      <img 
+        src="../asset/image 1.png"
+        alt="Backpack 1" 
+        class="w-full h-auto object-cover"
+      >
+    </div>
+
+    <!-- Gambar 2 -->
+    <div >
+      <img 
+        src="../asset/image 3.png" 
+        alt="Backpack 2" 
+        class="w-full h-auto object-cover"
+      >
+    </div>
+
+    <!-- Gambar 3 -->
+    <div>
+      <img 
+        src="../asset/image 2.png" 
+        alt="Backpack 3" 
+        class="w-full h-auto object-cover"
+      >
+    </div>
+
+  </div>
+</section>
+  
+
+
+      
+<!-- Katalog Produk -->
+<div class="bg-[#5B2C2C] py-20 px-4 rounded-b-none">
+  <div class="max-w-6xl mx-auto">
+    <div id="productGrid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-24 place-items-center">
+
+
+      <!-- Salin atau generate lebih banyak kartu seperti di atas -->
+
+    </div>
+  </div>
+</div>
+
+</div>
+</div>   
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
+

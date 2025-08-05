@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Login Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#5B2C2C] min-h-screen flex items-center justify-center px-4">
+  <div class="w-full max-w-sm bg-white rounded-lg shadow-md p-6">
+    <!-- Tombol Back -->
+    <button onclick="history.back()" class="text-sm text-black mb-4 hover:underline">
+      ← Back
+    </button>
+
+    <!-- Judul Login -->
+    <h2 class="text-center text-xl font-semibold text-gray-800 mb-6">Login</h2>
+
+    <!-- Form Login -->
+    <form action="home.html">
+      <label class="block mb-2 text-sm text-gray-600">Phone number/Email</label>
+      <input type="text" class="w-full border-b border-gray-400 focus:outline-none focus:border-gray-600 mb-4 pb-1" />
+
+      <label class="block mb-2 text-sm text-gray-600">Password</label>
+      <input type="password" class="w-full border-b border-gray-400 focus:outline-none focus:border-gray-600 mb-6 pb-1" />
+
+      <button type="submit" class="w-full bg-white border border-gray-400 py-1 rounded-md hover:bg-gray-200">
+        Masuk
+      </button>
+    </form>
+
+    <!-- OR Separator -->
+    <div class="flex items-center my-6">
+      <hr class="flex-grow border-t border-gray-300" />
+      <span class="mx-2 text-sm text-gray-500">Or</span>
+      <hr class="flex-grow border-t border-gray-300" />
+    </div>
+
+    <!-- Tombol Sosial Media -->
+    <div class="flex justify-between space-x-4">
+      <button class="flex items-center justify-center w-1/2 space-x-2 border border-gray-300 py-1 rounded hover:bg-gray-50">
+        <img src="https://www.svgrepo.com/show/475647/facebook-color.svg" alt="Facebook" class="w-5 h-5" />
+        <span class="text-sm text-gray-700">Facebook</span>
+      </button>
+
+      <button class="flex items-center justify-center w-1/2 space-x-2 border border-gray-300 py-1 rounded hover:bg-gray-50">
+        <img src="https://www.svgrepo.com/show/475656/google-color.svg" alt="Google" class="w-5 h-5" />
+        <span class="text-sm text-gray-700">Google</span>
+      </button>
+    </div>
+  </div>
+</body>
+</html>
